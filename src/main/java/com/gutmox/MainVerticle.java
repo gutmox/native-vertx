@@ -16,7 +16,6 @@ public class MainVerticle extends AbstractVerticle {
 
 	private static final String HEALTH_CHECK = "/health";
 	private static final String HELLO = "/hello";
-	private static final String SOAP = "/soap";
 	private static final String ROOT = "/";
 
 	private static final Logger LOGGER = LoggerFactory.getLogger(MainVerticle.class.getName());
